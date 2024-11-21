@@ -1,0 +1,11 @@
+/* Blinking effect for text */
+@keyframes blink {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: green; }
+  }
+  
+  .spinner {
+    animation: blink 1s infinite;
+  }
+  
